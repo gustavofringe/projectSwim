@@ -1,0 +1,19 @@
+html, body {
+  font-family: 'Open Sans',sans-serif;
+  font-size: 12px;
+  margin: 0; }
+
+header h1 {
+  text-align: center; }
+header figure {
+  margin: 0; }
+  header figure img {
+    height: 50px;
+    width: 100px;
+    margin: 0; }
+header table {
+  font-size: 9px; }
+header figure, header table {
+  display: inline-block; }
+
+/*# sourceMappingURL=style.css.map */
