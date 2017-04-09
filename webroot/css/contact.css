@@ -37,26 +37,20 @@ header .head-picture, header table {
   width: 120px;
   content: url("../img/piscine_s.jpg");*/
   display: none; }
-.menu nav {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%; }
-  .menu nav ul {
-    width: 180px;
-    margin: 0 auto;
-    padding: 0; }
-    .menu nav ul li {
-      display: inline-block;
-      width: 80px;
-      height: 30px;
-      background-color: aqua;
-      text-align: center;
-      padding-top: 10px; }
-      .menu nav ul li a {
-        width: 27px;
-        text-decoration: none; }
+.menu nav ul {
+  width: 180px;
+  margin: 0 auto;
+  padding: 0; }
+  .menu nav ul li {
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    background-color: aqua;
+    text-align: center;
+    padding-top: 10px; }
+    .menu nav ul li a {
+      width: 27px;
+      text-decoration: none; }
 
 /*
 *
@@ -79,9 +73,26 @@ header .head-picture, header table {
   .contact input {
     display: block; }
   .contact fieldset {
-    border: 2px solid green;
+    border: 2px solid transparent;
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
     border-radius: 8px; }
+  .contact .btn-primary {
+    margin-top: 10px;
+    width: 150px;
+    height: 35px;
+    background-color: #2962FF;
+    border-style: none;
+    border-radius: 3px; }
+
+/*
+*
+*
+*###################################" map
+*
+*/
+#map {
+  height: 400px;
+  width: 320px; }
 
 /*# sourceMappingURL=contact.css.map */

@@ -38,8 +38,8 @@
         </figure>
         <nav>
             <ul>
-                <li><a href="pages/contact.html">Contact</a></li>
-                <li><a href="pages/rate.html">tarifs</a></li>
+                <li><a href="../index.html">Acceuil</a></li>
+                <li><a href="rate.html">tarifs</a></li>
             </ul>
         </nav>
     </div>
@@ -48,6 +48,7 @@
             <img class="image_article" alt="Image d'une réalisation de piscine">
         </figure>
     </aside>
+
     <section>
         <form class="contact">
             <fieldset>
@@ -58,22 +59,25 @@
                 <input type="text" id="firstname">
                 <label for="phone">Téléphone: </label>
                 <input type="tel" id="phone">
-                <label for="email">Nom: </label>
+                <label for="email">Email: </label>
                 <input type="email" id="email">
-                <label for="text">Votre message</label>
+                <label for="text">Votre message:</label>
                 <textarea name="" id="text" cols="30" rows="10"></textarea>
+                <input type="submit" value="Envoyer" class="btn-primary">
             </fieldset>
         </form>
     </section>
     <div id="map"></div>
 </main>
 </body>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0zZCpLabRlisarVr9Gepq-vJmO8ErIHI&callback=initMap" async defer></script>
+<script type="text/javascript" src="../webroot/js/app.js"></script>
 <script type="text/javascript" src="../webroot/js/tinymce/tinymce.min.js"></script>
 
 <script>
     tinymce.init({
         selector: '#text',
-        height: 500,
         language: 'fr_FR',
         menubar: false,
         plugins: [
