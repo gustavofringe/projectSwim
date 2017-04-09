@@ -1,0 +1,75 @@
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  margin: 0; }
+
+/*
+*
+*#########################header
+*
+*
+*/
+header h1 {
+  text-align: center; }
+header .head-picture {
+  margin: 0; }
+  header .head-picture .img1 {
+    height: 69px;
+    width: 109px;
+    content: url("../img/celine_108_s.jpg");
+    vertical-align: middle; }
+    header .head-picture .img1:after {
+      content: url("../img/celine_108_s.jpg");
+      overflow: hidden; }
+    header .head-picture .img1:before {
+      display: none; }
+header table {
+  font-size: 9px;
+  vertical-align: middle; }
+  header table td {
+    padding-bottom: 10px; }
+header .head-picture, header table {
+  display: inline-block; }
+
+/*
+*
+*###################### nav menu
+*
+*
+*/
+.menu .nav_picture .img2 {
+  /*height: 80px;
+  width: 120px;
+  content: url("../img/piscine_s.jpg");*/
+  display: none; }
+.menu nav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+  .menu nav ul {
+    width: 180px;
+    margin: 0 auto;
+    padding: 0; }
+    .menu nav ul li {
+      display: inline-block;
+      width: 80px;
+      height: 30px;
+      background-color: aqua;
+      text-align: center;
+      padding-top: 10px; }
+      .menu nav ul li a {
+        width: 27px;
+        text-decoration: none; }
+
+/*
+*
+*
+*############################ content
+*
+*
+*/
+.lorem_picture .image_article {
+  display: none; }
+
+/*# sourceMappingURL=rate.css.map */
