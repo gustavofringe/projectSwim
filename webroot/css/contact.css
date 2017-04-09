@@ -66,16 +66,6 @@ header .head-picture, header table {
 *
 */
 .lorem_picture .image_article {
-  width: 135px;
-  height: 90px;
-  content: url("../img/piscine2_s.jpg");
-  float: right; }
+  display: none; }
 
-/*
-*
-*###################################### contact.html
-*
-*
-*/
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=contact.css.map */
