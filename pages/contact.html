@@ -48,6 +48,32 @@
             <img class="image_article" alt="Image d'une réalisation de piscine">
         </figure>
     </aside>
+    <section>
+        <form class="contact">
+            <fieldset>
+                <legend>Contact</legend>
+                <label for="lastname">Nom: </label>
+                <input type="text" id="lastname">
+                <label for="firstname">Prénom: </label>
+                <input type="text" id="firstname">
+                <label for="phone">Téléphone: </label>
+                <input type="tel" id="phone">
+                <label for="email">Nom: </label>
+                <input type="email" id="email">
+                <label for="text">Votre message</label>
+                <textarea name="" id="text" cols="30" rows="10"></textarea>
+            </fieldset>
+        </form>
+    </section>
+    <div id="map"></div>
 </main>
 </body>
+<script src="https://cloud.tinymce.com/stable/tinymce.min.js?apiKey=p5iykbxnh3oq94az6dcujhmodv7btftowz37h14m836kyw8e"></script>
+
+<script>
+    tinymce.init({
+        selector: '#text',
+        language: 'fr_Fr'
+    });
+</script>
 </html>

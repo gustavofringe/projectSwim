@@ -68,4 +68,20 @@ header .head-picture, header table {
 .lorem_picture .image_article {
   display: none; }
 
+/*
+*
+*
+*########################### form contact
+*
+*/
+.contact {
+  display: block; }
+  .contact input {
+    display: block; }
+  .contact fieldset {
+    border: 2px solid green;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px; }
+
 /*# sourceMappingURL=contact.css.map */
