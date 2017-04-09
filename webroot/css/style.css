@@ -148,4 +148,31 @@ section .pi3 {
   section .pi3:before {
     display: none; }
 
+/*
+*
+*
+*######################################## tablet format
+*
+*/
+@media (min-width: 768px) {
+  /*
+  *
+  *
+  *#################################### header
+  *
+  */
+  header table {
+    font-size: 15px; }
+    header table td {
+      padding-bottom: 40px; }
+  header .head-picture .img1 {
+    height: 200px;
+    width: 316px;
+    content: url("../img/celine_108_m.jpg");
+    vertical-align: middle; }
+    header .head-picture .img1:after {
+      content: url("../img/celine_108_m.jpg"); }
+    header .head-picture .img1:before {
+      display: none; } }
+
 /*# sourceMappingURL=style.css.map */
