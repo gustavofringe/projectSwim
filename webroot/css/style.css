@@ -17,10 +17,10 @@ header .head-picture {
   header .head-picture .img1 {
     height: 69px;
     width: 109px;
-    content: url("../img/celine_108_s.jpg");
+    content: url("../img/header/celine_108_s.jpg");
     vertical-align: middle; }
     header .head-picture .img1:after {
-      content: url("../img/celine_108_s.jpg"); }
+      content: url("../img/header/celine_108_s.jpg"); }
     header .head-picture .img1:before {
       display: none; }
 header table {
@@ -78,73 +78,73 @@ section .top, section .middle, section .bottom {
 section .phs1 {
   width: 100px;
   height: 100px;
-  content: url("../img/piscine-hors-sol-bois_s.jpg"); }
+  content: url("../img/piscine_hors_sol/piscine-hors-sol-bois_s.jpg"); }
   section .phs1:after {
-    content: url("../img/piscine-hors-sol-bois_s.jpg"); }
+    content: url("../img/piscine_hors_sol/piscine-hors-sol-bois_s.jpg"); }
   section .phs1:before {
     display: none; }
 section .phs2 {
   width: 184px;
   height: 100px;
-  content: url("../img/piscine-hors-sol-bois_2_s.jpg"); }
+  content: url("../img/piscine_hors_sol/piscine-hors-sol-bois_2_s.jpg"); }
   section .phs2:after {
-    content: url("../img/piscine-hors-sol-bois_2_s.jpg"); }
+    content: url("../img/piscine_hors_sol/piscine-hors-sol-bois_2_s.jpg"); }
   section .phs2:before {
     display: none; }
 section .phs3 {
   width: 133px;
   height: 100px;
-  content: url("../img/piscine-hors-sol-bois_3_s.jpg"); }
+  content: url("../img/piscine_hors_sol/piscine-hors-sol-bois_3_s.jpg"); }
   section .phs3:after {
-    content: url("../img/piscine-hors-sol-bois_3_s.jpg"); }
+    content: url("../img/piscine_hors_sol/piscine-hors-sol-bois_3_s.jpg"); }
   section .phs3:before {
     display: none; }
 section .pe1 {
   width: 133px;
   height: 100px;
-  content: url("../img/piscine_enterre_s.jpg"); }
+  content: url("../img/piscine_enterree/piscine_enterre_s.jpg"); }
   section .pe1:after {
-    content: url("../img/piscine_enterre_s.jpg"); }
+    content: url("../img/piscine_enterree/piscine_enterre_s.jpg"); }
   section .pe1:before {
     display: none; }
 section .pe2 {
   width: 133px;
   height: 100px;
-  content: url("../img/piscine_enterree_2_s.jpg"); }
+  content: url("../img/piscine_enterree/piscine_enterree_2_s.jpg"); }
   section .pe2:after {
-    content: url("../img/piscine_enterree_2_s.jpg"); }
+    content: url("../img/piscine_enterree/piscine_enterree_2_s.jpg"); }
   section .pe2:before {
     display: none; }
 section .pe3 {
   width: 150px;
   height: 100px;
-  content: url("../img/piscine_enterree_3_s.jpg"); }
+  content: url("../img/piscine_enterree/piscine_enterree_3_s.jpg"); }
   section .pe3:after {
-    content: url("../img/piscine_enterree_3_s.jpg"); }
+    content: url("../img/piscine_enterree/piscine_enterree_3_s.jpg"); }
   section .pe3:before {
     display: none; }
 section .pi1 {
   width: 132px;
   height: 100px;
-  content: url("../img/piscine_interieur_s.jpg"); }
+  content: url("../img/piscine_interieur/piscine_interieur_s.jpg"); }
   section .pi1:after {
-    content: url("../img/piscine_interieur_s.jpg"); }
+    content: url("../img/piscine_interieur/piscine_interieur_s.jpg"); }
   section .pi1:before {
     display: none; }
 section .pi2 {
   width: 151px;
   height: 100px;
-  content: url("../img/piscine_interieur_2_s.jpg"); }
+  content: url("../img/piscine_interieur/piscine_interieur_2_s.jpg"); }
   section .pi2:after {
-    content: url("../img/piscine_interieur_2_s.jpg"); }
+    content: url("../img/piscine_interieur/piscine_interieur_2_s.jpg"); }
   section .pi2:before {
     display: none; }
 section .pi3 {
   width: 133px;
   height: 100px;
-  content: url("../img/piscine_interieur_3_s.jpg"); }
+  content: url("../img/piscine_interieur/piscine_interieur_3_s.jpg"); }
   section .pi3:after {
-    content: url("../img/piscine_interieur_3_s.jpg"); }
+    content: url("../img/piscine_interieur/piscine_interieur_3_s.jpg"); }
   section .pi3:before {
     display: none; }
 
@@ -168,11 +168,17 @@ section .pi3 {
   header .head-picture .img1 {
     height: 200px;
     width: 316px;
-    content: url("../img/celine_108_m.jpg");
+    content: url("../img/header/celine_108_m.jpg");
     vertical-align: middle; }
     header .head-picture .img1:after {
-      content: url("../img/celine_108_m.jpg"); }
+      content: url("../img/header/celine_108_m.jpg"); }
     header .head-picture .img1:before {
-      display: none; } }
+      display: none; }
+
+  section img {
+    padding-left: 20px; }
+
+  figcaption {
+    font-size: 15px; } }
 
 /*# sourceMappingURL=style.css.map */
