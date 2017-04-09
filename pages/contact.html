@@ -68,12 +68,21 @@
     <div id="map"></div>
 </main>
 </body>
-<script src="https://cloud.tinymce.com/stable/tinymce.min.js?apiKey=p5iykbxnh3oq94az6dcujhmodv7btftowz37h14m836kyw8e"></script>
+<script type="text/javascript" src="../webroot/js/tinymce/tinymce.min.js"></script>
 
 <script>
     tinymce.init({
         selector: '#text',
-        language: 'fr_Fr'
+        height: 500,
+        language: 'fr_FR',
+        menubar: false,
+        plugins: [
+            'advlist autolink lists link image charmap print preview anchor',
+            'searchreplace visualblocks code fullscreen',
+            'insertdatetime media table contextmenu paste code'
+        ],
+        toolbar: 'undo redo | insert | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image',
+        content_css: '//www.tinymce.com/css/codepen.min.css'
     });
 </script>
 </html>
