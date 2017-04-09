@@ -175,6 +175,12 @@ section .pi3 {
     header .head-picture .img1:before {
       display: none; }
 
+  /*
+  *
+  *
+  *################################## section
+  *
+  */
   section img {
     padding-left: 20px; }
 
