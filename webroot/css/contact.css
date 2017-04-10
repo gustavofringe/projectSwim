@@ -16,7 +16,7 @@ header .head-picture {
   header .head-picture .img1 {
     height: 69px;
     width: 109px;
-    content: url("../img/celine_108_s.jpg");
+    content: url("../img/header/celine_108_s.jpg");
     vertical-align: middle; }
 header table {
   font-size: 9px;
@@ -94,5 +94,57 @@ header .head-picture, header table {
 #map {
   height: 400px;
   width: 320px; }
+
+/*
+*
+*
+*################################## tablet format
+*
+*/
+@media (min-width: 768px) {
+  /*
+  *
+  *############################# header
+  *
+  */
+  header .head-picture {
+    margin: 0; }
+    header .head-picture .img1 {
+      height: 200px;
+      width: 316px;
+      content: url("../img/header/celine_108_m.jpg");
+      vertical-align: middle; }
+  header table {
+    font-size: 15px;
+    margin-left: 30px; }
+    header table td {
+      padding-bottom: 20px; }
+
+  /*
+  *
+  *
+  *############################### form
+  *
+  */
+  .input {
+    width: 300px;
+    height: 25px;
+    border-style: none;
+    border-bottom: 1px solid black; }
+    .input:hover {
+      background-color: gray; }
+
+  /*
+  *
+  *
+  *################################ map
+  *
+  */
+  section, #map {
+    display: inline-block; }
+
+  #map {
+    vertical-align: top;
+    height: 600px; } }
 
 /*# sourceMappingURL=contact.css.map */
