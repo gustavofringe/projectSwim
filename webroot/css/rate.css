@@ -11,6 +11,8 @@ html, body {
 */
 header h1 {
   text-align: center; }
+header table {
+  vertical-align: top; }
 header .head-picture {
   margin: 0; }
   header .head-picture .img1 {
@@ -25,7 +27,7 @@ header .head-picture {
       display: none; }
 header .head-table {
   font-size: 9px;
-  vertical-align: middle; }
+  vertical-align: top; }
   header .head-table td {
     padding-bottom: 10px; }
   header .head-table:nth-child(odd) {
@@ -39,10 +41,7 @@ header .head-picture, header table {
 *
 *
 */
-.menu .nav_picture .img2 {
-  /*height: 80px;
-  width: 120px;
-  content: url("../img/piscine_s.jpg");*/
+.menu .nav_picture .img2:before {
   display: none; }
 .menu nav {
   position: absolute;
@@ -135,5 +134,115 @@ header .head-picture, header table {
   .menu nav ul li {
     height: 40px;
     font-size: 15px; } }
+/*
+*
+*################################ desktop format medium
+*
+*/
+@media (min-width: 1370px) {
+  /*
+*
+*######################### header
+*
+*/
+  .header {
+    width: 800px;
+    margin: 0 auto; }
+    .header table {
+      padding-left: 40px; }
+
+  /*
+  *
+  *############################" menu
+  *
+  *
+  */
+  .menu {
+    padding: 0;
+    margin-top: 54px;
+    height: 500px;
+    width: 300px; }
+    .menu .nav_picture {
+      border: 1px dashed grey;
+      border-radius: 3px;
+      height: 300px;
+      padding: 0;
+      margin: 0; }
+      .menu .nav_picture .img2 {
+        height: 189px;
+        width: 300px;
+        content: url("../img/piscine_enterree/prix-piscine-creusee_m.jpg"); }
+        .menu .nav_picture .img2:after {
+          content: url("../img/piscine_enterree/prix-piscine-creusee_m.jpg"); }
+        .menu .nav_picture .img2:before {
+          display: none; }
+    .menu nav {
+      border: 1px dashed grey;
+      border-radius: 3px;
+      height: 300px;
+      background-color: #9E9E9E;
+      width: 300px; }
+      .menu nav ul {
+        width: 200px;
+        margin: 0 auto; }
+        .menu nav ul li {
+          margin-top: 70px;
+          width: 200px;
+          display: block; }
+
+  /*
+  *
+  *
+  *##############################" table
+  *
+  */
+  .table {
+    margin-left: 100px; }
+
+  .menu, .table {
+    display: inline-block;
+    vertical-align: top; } }
+/*
+*
+*################################## desktop format large
+*
+*
+*/
+@media (min-width: 1600px) {
+  /*
+  *
+  *######################### header
+  *
+  */
+  .header {
+    width: 800px;
+    margin: 0 auto; }
+    .header table {
+      padding-left: 40px;
+      vertical-align: top; }
+
+  .menu {
+    width: 477px;
+    margin-top: 54px;
+    margin-left: 100px; }
+    .menu .nav_picture {
+      border: 1px dashed grey;
+      border-radius: 3px;
+      height: 300px;
+      padding: 0;
+      margin: 0; }
+      .menu .nav_picture .img2 {
+        height: 300px;
+        width: 477px;
+        content: url("../img/piscine_enterree/prix-piscine-creusee_l.jpg"); }
+        .menu .nav_picture .img2:after {
+          content: url("../img/piscine_enterree/prix-piscine-creusee_l.jpg"); }
+        .menu .nav_picture .img2:before {
+          display: none; }
+    .menu nav {
+      height: 350px; }
+      .menu nav ul li {
+        width: 200px;
+        display: block; } }
 
 /*# sourceMappingURL=rate.css.map */
