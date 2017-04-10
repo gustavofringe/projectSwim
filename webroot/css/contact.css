@@ -146,5 +146,74 @@ header .head-picture, header table {
   #map {
     vertical-align: top;
     height: 600px; } }
+/*
+*
+*
+*################################ format desktop medium
+*
+*
+*/
+@media (min-width: 1370px) {
+  /*
+  *
+  *################################ header
+  *
+  */
+  .header {
+    width: 800px;
+    margin: 0 auto; }
+    .header table {
+      padding-left: 40px; }
+
+  /*
+  *
+  *############################# menu
+  *
+  *
+  */
+  .menu {
+    padding: 0;
+    margin-top: 54px;
+    height: 500px;
+    width: 300px; }
+    .menu .nav_picture {
+      border: 1px dashed grey;
+      border-radius: 3px;
+      height: 300px;
+      padding: 0;
+      margin: 0; }
+      .menu .nav_picture .img2 {
+        height: 189px;
+        width: 300px;
+        content: url("../img/piscine_enterree/prix-piscine-creusee_m.jpg"); }
+    .menu nav {
+      border: 1px dashed grey;
+      border-radius: 3px;
+      height: 300px;
+      background-color: #9E9E9E; }
+      .menu nav ul {
+        width: 200px;
+        margin: 0 auto; }
+        .menu nav ul li {
+          margin-top: 70px;
+          width: 200px;
+          display: block; }
+
+  /*
+  *
+  *
+  *########################## map
+  *
+  */
+  #map {
+    width: 500px;
+    margin-left: 30px; }
+
+  section {
+    margin-left: 30px; }
+
+  .menu, section, #map {
+    display: inline-block;
+    vertical-align: top; } }
 
 /*# sourceMappingURL=contact.css.map */
