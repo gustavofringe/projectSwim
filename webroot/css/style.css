@@ -321,6 +321,7 @@ section .pi3 {
         width: 200px;
         margin: 0 auto; }
         .menu nav ul li {
+          margin-top: 70px;
           width: 200px;
           display: block; }
 
@@ -346,14 +347,15 @@ section .pi3 {
       padding-left: 40px; }
 
   .menu {
-    margin-top: 43px;
+    width: 477px;
+    margin-top: 54px;
     height: 500px; }
     .menu .nav_picture .img2 {
       height: 300px;
       width: 477px;
       content: url("../img/piscine_enterree/prix-piscine-creusee_l.jpg"); }
     .menu nav {
-      height: 300px; }
+      height: 350px; }
       .menu nav ul li {
         width: 200px;
         display: block; }
