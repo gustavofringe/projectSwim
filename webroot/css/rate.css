@@ -16,18 +16,20 @@ header .head-picture {
   header .head-picture .img1 {
     height: 69px;
     width: 109px;
-    content: url("../img/celine_108_s.jpg");
+    content: url("../img/header/celine_108_s.jpg");
     vertical-align: middle; }
     header .head-picture .img1:after {
-      content: url("../img/celine_108_s.jpg");
+      content: url("../img/header/celine_108_s.jpg");
       overflow: hidden; }
     header .head-picture .img1:before {
       display: none; }
-header table {
+header .head-table {
   font-size: 9px;
   vertical-align: middle; }
-  header table td {
+  header .head-table td {
     padding-bottom: 10px; }
+  header .head-table:nth-child(odd) {
+    background-color: #ccccff; }
 header .head-picture, header table {
   display: inline-block; }
 
@@ -65,11 +67,62 @@ header .head-picture, header table {
 /*
 *
 *
-*############################ content
+*################################# table
 *
 *
 */
-.lorem_picture .image_article {
-  display: none; }
+.main-table, .main-table2 {
+  width: 300px;
+  margin: 50px auto; }
+  .main-table tr:hover, .main-table2 tr:hover {
+    background-color: #7c36ff; }
+  .main-table th, .main-table2 th {
+    text-align: left; }
+  .main-table th, .main-table td, .main-table2 th, .main-table2 td {
+    border-bottom: 1px solid gray; }
+
+/*
+*
+*################################## tablet format
+*
+*
+*/
+@media (min-width: 768px) {
+  /*
+  *
+  *
+  *#################################### header
+  *
+  */
+  header .head-table {
+    font-size: 15px; }
+    header .head-table td {
+      padding-bottom: 40px; }
+  header .head-picture .img1 {
+    height: 200px;
+    width: 316px;
+    content: url("../img/header/celine_108_m.jpg");
+    vertical-align: middle; }
+    header .head-picture .img1:after {
+      content: url("../img/header/celine_108_m.jpg"); }
+    header .head-picture .img1:before {
+      display: none; }
+
+  /*
+  *
+  *
+  *################################ table rate
+  *
+  *
+  */
+  .main-table, .main-table2 {
+    width: 300px;
+    margin: 50px auto; }
+    .main-table tr:hover, .main-table2 tr:hover {
+      background-color: #7c36ff; }
+    .main-table th, .main-table2 th {
+      text-align: left; }
+    .main-table th, .main-table td, .main-table2 th, .main-table2 td {
+      border-bottom: 1px solid gray; } }
 
 /*# sourceMappingURL=rate.css.map */
