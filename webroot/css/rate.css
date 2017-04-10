@@ -116,13 +116,24 @@ header .head-picture, header table {
   *
   */
   .main-table, .main-table2 {
-    width: 300px;
-    margin: 50px auto; }
+    width: 600px;
+    margin: 70px auto;
+    font-size: 20px; }
     .main-table tr:hover, .main-table2 tr:hover {
       background-color: #7c36ff; }
     .main-table th, .main-table2 th {
       text-align: left; }
     .main-table th, .main-table td, .main-table2 th, .main-table2 td {
-      border-bottom: 1px solid gray; } }
+      border-bottom: 1px solid gray; }
+
+  /*
+  *
+  *
+  *############################### nav menu
+  *
+  */
+  .menu nav ul li {
+    height: 40px;
+    font-size: 15px; } }
 
 /*# sourceMappingURL=rate.css.map */
