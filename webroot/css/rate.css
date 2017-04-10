@@ -9,6 +9,9 @@ html, body {
 *
 *
 */
+.menu, .table {
+  display: block; }
+
 header h1 {
   text-align: center; }
 header table {
@@ -240,7 +243,9 @@ header .head-picture, header table {
         .menu .nav_picture .img2:before {
           display: none; }
     .menu nav {
-      height: 350px; }
+      height: 325px;
+      width: 477px;
+      margin-left: 100px; }
       .menu nav ul li {
         width: 200px;
         display: block; } }
