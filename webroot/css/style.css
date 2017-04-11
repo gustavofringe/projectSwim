@@ -1,0 +1,373 @@
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  margin: 0; }
+
+/*
+*
+*#########################header
+*
+*
+*/
+header h1 {
+  text-align: center; }
+header .head-picture {
+  white-space: nowrap;
+  margin: 0; }
+  header .head-picture .img1 {
+    height: 69px;
+    width: 109px;
+    content: url("../img/header/celine_108_s.jpg");
+    vertical-align: middle; }
+    header .head-picture .img1:after {
+      content: url("../img/header/celine_108_s.jpg"); }
+    header .head-picture .img1:before {
+      display: none; }
+header table {
+  font-size: 9px;
+  vertical-align: middle; }
+  header table td {
+    padding-bottom: 10px; }
+header .head-picture, header table {
+  display: inline-block; }
+
+/*
+*
+*###################### nav menu
+*
+*
+*/
+.menu nav ul {
+  width: 180px;
+  margin: 0 auto;
+  padding: 0; }
+  .menu nav ul li {
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    background-color: aqua;
+    text-align: center;
+    padding-top: 10px; }
+    .menu nav ul li:hover {
+      background-color: #689F38; }
+    .menu nav ul li a {
+      width: 27px;
+      text-decoration: none; }
+
+/*
+*
+*
+*############################ section
+*
+*
+*/
+section figcaption {
+  text-align: center; }
+section .phs_d {
+  display: inline-block;
+  padding: 0;
+  margin: 0; }
+section .top, section .middle, section .bottom {
+  height: 125px;
+  margin: 0;
+  white-space: nowrap;
+  font-size: 10px; }
+section .phs1 {
+  width: 100px;
+  height: 100px;
+  content: url("../img/piscine_hors_sol/piscine-hors-sol-bois_s.jpg"); }
+  section .phs1:after {
+    content: url("../img/piscine_hors_sol/piscine-hors-sol-bois_s.jpg"); }
+  section .phs1:before {
+    display: none; }
+section .phs2 {
+  width: 184px;
+  height: 100px;
+  content: url("../img/piscine_hors_sol/piscine-hors-sol-bois_2_s.jpg"); }
+  section .phs2:after {
+    content: url("../img/piscine_hors_sol/piscine-hors-sol-bois_2_s.jpg"); }
+  section .phs2:before {
+    display: none; }
+section .phs3 {
+  width: 133px;
+  height: 100px;
+  content: url("../img/piscine_hors_sol/piscine-hors-sol-bois_3_s.jpg"); }
+  section .phs3:after {
+    content: url("../img/piscine_hors_sol/piscine-hors-sol-bois_3_s.jpg"); }
+  section .phs3:before {
+    display: none; }
+section .pe1 {
+  width: 133px;
+  height: 100px;
+  content: url("../img/piscine_enterree/piscine_enterre_s.jpg"); }
+  section .pe1:after {
+    content: url("../img/piscine_enterree/piscine_enterre_s.jpg"); }
+  section .pe1:before {
+    display: none; }
+section .pe2 {
+  width: 133px;
+  height: 100px;
+  content: url("../img/piscine_enterree/piscine_enterree_2_s.jpg"); }
+  section .pe2:after {
+    content: url("../img/piscine_enterree/piscine_enterree_2_s.jpg"); }
+  section .pe2:before {
+    display: none; }
+section .pe3 {
+  width: 150px;
+  height: 100px;
+  content: url("../img/piscine_enterree/piscine_enterree_3_s.jpg"); }
+  section .pe3:after {
+    content: url("../img/piscine_enterree/piscine_enterree_3_s.jpg"); }
+  section .pe3:before {
+    display: none; }
+section .pi1 {
+  width: 132px;
+  height: 100px;
+  content: url("../img/piscine_interieur/piscine_interieur_s.jpg"); }
+  section .pi1:after {
+    content: url("../img/piscine_interieur/piscine_interieur_s.jpg"); }
+  section .pi1:before {
+    display: none; }
+section .pi2 {
+  width: 151px;
+  height: 100px;
+  content: url("../img/piscine_interieur/piscine_interieur_2_s.jpg"); }
+  section .pi2:after {
+    content: url("../img/piscine_interieur/piscine_interieur_2_s.jpg"); }
+  section .pi2:before {
+    display: none; }
+section .pi3 {
+  width: 133px;
+  height: 100px;
+  content: url("../img/piscine_interieur/piscine_interieur_3_s.jpg"); }
+  section .pi3:after {
+    content: url("../img/piscine_interieur/piscine_interieur_3_s.jpg"); }
+  section .pi3:before {
+    display: none; }
+
+/*
+*
+*
+*######################################## tablet format
+*
+*/
+@media (min-width: 768px) {
+  /*
+  *
+  *
+  *#################################### header
+  *
+  */
+  header table {
+    font-size: 15px; }
+    header table td {
+      padding-bottom: 40px; }
+  header .head-picture .img1 {
+    height: 200px;
+    width: 316px;
+    content: url("../img/header/celine_108_m.jpg");
+    vertical-align: middle; }
+    header .head-picture .img1:after {
+      content: url("../img/header/celine_108_m.jpg"); }
+    header .head-picture .img1:before {
+      display: none; }
+
+  /*
+  *
+  *
+  *################################### nav menu
+  *
+  *
+  */
+  .menu nav ul {
+    width: 250px; }
+    .menu nav ul li {
+      height: 30px;
+      width: 100px;
+      padding-top: 10px; }
+      .menu nav ul li a {
+        font-size: 15px; }
+
+  /*
+  *
+  *
+  *################################## section
+  *
+  */
+  section img {
+    padding-left: 20px; }
+  section figcaption {
+    font-size: 15px; }
+  section .phs_d {
+    display: inline-block;
+    padding: 0;
+    margin: 0; }
+  section .top, section .middle, section .bottom {
+    height: 225px;
+    margin: 0;
+    white-space: nowrap;
+    font-size: 10px; }
+  section .phs1 {
+    padding: 0;
+    width: 200px;
+    height: 200px;
+    content: url("../img/piscine_hors_sol/piscine-hors-sol-bois_m.jpg"); }
+    section .phs1:after {
+      content: url("../img/piscine_hors_sol/piscine-hors-sol-bois_m.jpg"); }
+    section .phs1:before {
+      display: none; }
+  section .phs2 {
+    width: 369px;
+    height: 200px;
+    content: url("../img/piscine_hors_sol/piscine-hors-sol-bois_2_m.jpg"); }
+    section .phs2:after {
+      content: url("../img/piscine_hors_sol/piscine-hors-sol-bois_2_m.jpg"); }
+    section .phs2:before {
+      display: none; }
+  section .phs3 {
+    width: 267px;
+    height: 200px;
+    content: url("../img/piscine_hors_sol/piscine-hors-sol-bois_3_m.jpg"); }
+    section .phs3:after {
+      content: url("../img/piscine_hors_sol/piscine-hors-sol-bois_3_m.jpg"); }
+    section .phs3:before {
+      display: none; }
+  section .pe1 {
+    padding: 0;
+    width: 266px;
+    height: 200px;
+    content: url("../img/piscine_enterree/piscine_enterre_m.jpg"); }
+    section .pe1:after {
+      content: url("../img/piscine_enterree/piscine_enterre_m.jpg"); }
+    section .pe1:before {
+      display: none; }
+  section .pe2 {
+    width: 301px;
+    height: 200px;
+    content: url("../img/piscine_enterree/piscine_enterree_2_m.jpg"); }
+    section .pe2:after {
+      content: url("../img/piscine_enterree/piscine_enterree_2_m.jpg"); }
+    section .pe2:before {
+      display: none; }
+  section .pe3 {
+    width: 426px;
+    height: 200px;
+    content: url("../img/piscine_enterree/piscine_enterree_3_m.jpg"); }
+    section .pe3:after {
+      content: url("../img/piscine_enterree/piscine_enterree_3_m.jpg"); }
+    section .pe3:before {
+      display: none; }
+  section .pi1 {
+    padding: 0;
+    width: 265px;
+    height: 200px;
+    content: url("../img/piscine_interieur/piscine_interieur_m.jpg"); }
+    section .pi1:after {
+      content: url("../img/piscine_interieur/piscine_interieur_m.jpg"); }
+    section .pi1:before {
+      display: none; }
+  section .pi2 {
+    width: 302px;
+    height: 200px;
+    content: url("../img/piscine_interieur/piscine_interieur_2_m.jpg"); }
+    section .pi2:after {
+      content: url("../img/piscine_interieur/piscine_interieur_2_m.jpg"); }
+    section .pi2:before {
+      display: none; }
+  section .pi3 {
+    width: 267px;
+    height: 200px;
+    content: url("../img/piscine_interieur/piscine_interieur_3_m.jpg"); }
+    section .pi3:after {
+      content: url("../img/piscine_interieur/piscine_interieur_3_m.jpg"); }
+    section .pi3:before {
+      display: none; } }
+/*
+*
+*################################ desktop format medium
+*
+*/
+@media (min-width: 1370px) {
+  /*
+*
+*######################### header
+*
+*/
+  .header {
+    width: 800px;
+    margin: 0 auto; }
+    .header table {
+      padding-left: 40px; }
+
+  .menu {
+    padding: 0;
+    margin-top: 54px;
+    height: 500px;
+    width: 300px; }
+    .menu .nav_picture {
+      border: 1px dashed grey;
+      border-radius: 3pxs;
+      height: 300px;
+      padding: 0;
+      margin: 0; }
+      .menu .nav_picture .img2 {
+        height: 189px;
+        width: 300px;
+        content: url("../img/piscine_enterree/prix-piscine-creusee_m.jpg"); }
+    .menu nav {
+      border: 1px dashed grey;
+      border-radius: 3pxs;
+      height: 300px;
+      background-color: #9E9E9E; }
+      .menu nav ul {
+        width: 200px;
+        margin: 0 auto; }
+        .menu nav ul li {
+          margin-top: 70px;
+          width: 200px;
+          display: block; }
+
+  .menu, section {
+    display: inline-block;
+    vertical-align: top; } }
+/*
+*
+*################################## desktop format large
+*
+*
+*/
+@media (min-width: 1600px) {
+  /*
+  *
+  *######################### header
+  *
+  */
+  .header {
+    width: 800px;
+    margin: 0 auto; }
+    .header table {
+      padding-left: 40px; }
+
+  .menu {
+    width: 477px;
+    margin-top: 54px;
+    height: 500px; }
+    .menu .nav_picture .img2 {
+      height: 300px;
+      width: 477px;
+      content: url("../img/piscine_enterree/prix-piscine-creusee_l.jpg"); }
+      .menu .nav_picture .img2:after {
+        content: url("../img/piscine_enterree/prix-piscine-creusee_l.jpg"); }
+      .menu .nav_picture .img2:before {
+        display: none; }
+    .menu nav {
+      height: 350px; }
+      .menu nav ul li {
+        width: 200px;
+        display: block; }
+
+  .menu, section {
+    display: inline-block;
+    vertical-align: top; } }
+
+/*# sourceMappingURL=style.css.map */

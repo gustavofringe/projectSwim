@@ -1,0 +1,5 @@
+/.idea
+Supprimerait .gitignore
+Supprimerait index.html
+Supprimerait pages/
+Supprimerait webroot/
